@@ -1,0 +1,18 @@
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\deployment-updated-orig-prefix.txt
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\web.config
+D:\Users\Antoine\Documents\Visual Studio 2015\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\web.debug.config
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\obj\Release\deployment-updated-orig-prefix.txt
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\obj\Release\web.config
+C:\Users\Antoine\OneDrive\DjangoWebProject1\DjangoWebProject1\obj\Release\web.debug.config

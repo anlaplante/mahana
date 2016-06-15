@@ -1,0 +1,47 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    {% load render_table from django_tables2 %}
+    {% load humanize %}
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Reference</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.invoicecode }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Name</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.customername }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Date</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.invoicedate }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Payment</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.totalamount|intcomma }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Purchase</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.buypricetotal|intcomma }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Discount</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ invoice.discount }}</p>
+        </div>
+      </div>
+    </form>
+    
+    {% render_table table %}
+<p>invoice_detail.html</p>
+{% endblock %}

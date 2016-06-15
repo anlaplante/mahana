@@ -1,0 +1,24 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+        <script type="text/javascript">
+            alert('Hello world!');
+            $(".toto").addClass("titi");
+
+            alert('titi');
+            $(document).ready(function() {
+            });
+        </script>
+    <form action="" method="get">
+        <ul>
+        {{ filter.form.as_ul }}
+        <input type="submit" />
+        </ul>
+    </form>
+    {% for obj in filter %}
+        {{ obj.productname }} / <span class="toto">${{ obj.saleprice }}</span><br />
+    {% endfor %}
+
+
+{% endblock %}

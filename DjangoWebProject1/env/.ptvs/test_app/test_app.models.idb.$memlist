@@ -1,0 +1,15 @@
+Location1
+GroupedForeignKey
+ChainedForeignKey
+Continent
+Student
+Team
+Grade
+Book1
+Location
+Country
+ChainedManyToManyField
+models
+Book
+Writer
+Publication

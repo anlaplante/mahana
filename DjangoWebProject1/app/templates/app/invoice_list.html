@@ -1,0 +1,12 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    {% load render_table from django_tables2 %}
+    {% load humanize %}
+    {% load crispy_forms_tags %}
+    {% crispy form %}
+    
+    <p>Total for this period: {{ sum_invoice.totalamount__sum|intcomma }}</p>
+    {% render_table table %}
+
+{% endblock %}

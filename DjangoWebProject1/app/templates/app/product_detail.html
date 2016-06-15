@@ -1,0 +1,72 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    {% load render_table from django_tables2 %}
+    {% load humanize %}
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Name</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.productname }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Reference</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.reference }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Category</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.categoryid }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Subcategory</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.subcategoryid }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Size</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.size }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Weight</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.weight }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Cubic size</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.cubicsize }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Buying price</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.buyingprice|intcomma }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Sale price</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.saleprice|intcomma }}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-xs-4 col-sm-3 control-label">Stock limit</label>
+        <div class="col-xs-8 col-sm-9">
+          <p class="form-control-static">{{ product.stocklimit }}</p>
+        </div>
+      </div>
+    </form>
+    
+    <h2>Suppliers :</h2>
+    {% render_table table %}
+<p>product_detail.html</p>
+{% endblock %}

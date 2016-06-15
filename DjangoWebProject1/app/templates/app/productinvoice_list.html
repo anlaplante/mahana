@@ -1,0 +1,14 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+    {% load render_table from django_tables2 %}
+    {% load humanize %}
+    <p>Reference : {{ invoice.invoicecode }}</p>
+    <p>Date : {{ invoice.invoicedate }}</p>
+    <p>Total Amount : {{ invoice.totalamount|intcomma }}</p>
+    <p>Total buy price : {{ invoice.buypricetotal|intcomma }}</p>
+    <p>Discount : {{ invoice.discount }}</p>
+    <p>Retail equivalent : {{ invoice.retailequivalent|intcomma }}</p>
+    {% render_table table %}
+<p>productinvoice_list.html</p>
+{% endblock %}
